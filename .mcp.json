@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "nomadfy": {
+      "type": "http",
+      "url": "https://api.nomadfy.app/mcp"
+    }
+  }
+}

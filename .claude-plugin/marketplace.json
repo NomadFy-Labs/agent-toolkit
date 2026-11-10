@@ -1,0 +1,17 @@
+{
+  "name": "nomadfy-labs",
+  "owner": {
+    "name": "NomadFy",
+    "url": "https://nomadfy.app"
+  },
+  "metadata": {
+    "description": "Os plugins da NomadFy para agentes de IA."
+  },
+  "plugins": [
+    {
+      "name": "nomadfy-agent-toolkit",
+      "source": "./",
+      "description": "As skills da NomadFy e o conector do servidor MCP."
+    }
+  ]
+}
