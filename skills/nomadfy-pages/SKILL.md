@@ -11,7 +11,7 @@ Precisa do MCP da NomadFy conectado (`https://api.nomadfy.app/mcp`). Sem ele, pe
 
 ## 1. Carregue o guia do servidor
 
-Chame `load_skill` do MCP com `{"name": "site-pages"}` e siga: ele traz o contrato da página (o que a plataforma impõe), o ciclo, o que faz uma boa página de vendas e o checkout. Os recursos dele se carregam com `{"name": "site-pages", "resource": "<recurso>"}`: `sdk` antes de escrever a página que vende, mostra o pagamento, a oferta ou o obrigado; `checkout` antes do checkout; `secoes` para seções de exemplo. Para o funil, `{"name": "funnels"}`.
+Chame `load_skill` do MCP com `{"name": "site-pages"}` e siga: ele traz o contrato da página (o que a plataforma impõe), o ciclo, o que faz uma boa página de vendas e o checkout. Os recursos dele se carregam com `{"name": "site-pages", "resource": "<recurso>"}`: `sdk` antes de escrever a página que vende, mostra o pagamento, a oferta ou o obrigado; `design` antes de escrever a primeira página de um site; `checkout` antes do checkout; `secoes` para seções de exemplo. Para o funil, `{"name": "funnels"}`.
 
 Esta skill traz o que roda no seu computador: a pasta do site e o envio.
 
