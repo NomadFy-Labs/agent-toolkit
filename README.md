@@ -15,7 +15,7 @@
 <p align="center">
   <a href="https://nomadfy.app/documentacao">Documentação da API</a> ·
   <a href="https://nomadfy.app/llms.txt">llms.txt</a> ·
-  <a href="https://hub.nomadfy.app/integracoes/mcp">Integrações com IA no hub</a>
+  <a href="https://hub.nomadfy.app/integracoes/mcp">Agentes e MCP no hub</a>
 </p>
 
 ---
@@ -61,9 +61,7 @@ E conecte o servidor MCP no seu agente, com o endereço `https://api.nomadfy.app
 |---|---|---|
 | [`nomadfy-integration`](skills/nomadfy-integration/SKILL.md) | Integrar a NomadFy numa aplicação: cobrança Pix, QR Code para o comprador, webhook de pagamento e estorno | Chave de API |
 | [`nomadfy-pages`](skills/nomadfy-pages/SKILL.md) | Criar páginas de venda e checkouts em arquivos, testar na prévia com pagamento de verdade e publicar no domínio do site | Servidor MCP |
-| [`nomadfy-funnels`](skills/nomadfy-funnels/SKILL.md) | Montar funis de venda, ofertas e recuperação de carrinho | Servidor MCP |
-| [`nomadfy-members-area`](skills/nomadfy-members-area/SKILL.md) | Cuidar da área de membros: cursos, aulas, materiais, alunos e certificados | Servidor MCP |
-| [`nomadfy-products`](skills/nomadfy-products/SKILL.md) | Cadastrar e mudar produtos, fotos, arquivos para download e kits | Servidor MCP |
+| [`nomadfy`](skills/nomadfy/SKILL.md) | Funis de venda e recuperação de carrinho, área de membros, produtos e kits, pelos guias do servidor MCP | Servidor MCP |
 
 ## Licença
 
